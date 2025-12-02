@@ -1,4 +1,6 @@
 package org.ldv.sushiapi.dto
 
-class AlimentBoxDtoApi {
-}
+data class AlimentBoxDtoApi(
+    val nom: String,
+    val quantite: Int
+)
